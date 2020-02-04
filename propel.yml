@@ -1,0 +1,17 @@
+propel:
+  database:
+    connections:
+      default:
+        adapter: sqlite
+        dsn: sqlite:./database.sq3
+        user: root
+        password: password
+        settings:
+          charset: utf8
+  paths:
+    phpDir: ./src/Models
+    phpConfDir: ./database
+    sqlDir: ./database
+    migrationDir: ./database/migrations
+  generator:
+    namespaceAutoPackage: false

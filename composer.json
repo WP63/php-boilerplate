@@ -3,12 +3,6 @@
     "description": "Simple boilerplate for PHP Application",
     "type": "project",
     "minimum-stability": "dev",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/propelorm/Propel3.git"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "App\\": "src/"
@@ -18,7 +12,7 @@
         "php": "^7.2",
         "izniburak/router": "^1.5",
         "duncan3dc/blade": "^4.8",
-        "propel/propel": "dev-master"
+        "propel/propel": "~2.0@dev"
     },
     "license": "GPLv3 or later",
     "authors": [

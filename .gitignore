@@ -1,4 +1,10 @@
-/caches
-/vendor
-/node_nodules
-/dist
+vendor
+node_nodules
+
+caches
+database
+src/Models
+dist
+
+propel.yml.dist
+database.sq3

@@ -4,90 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4b8be6b8db886fdf2af991ad441ba1e6",
+    "content-hash": "b16d3f4c3c0cebb2c7ffe238da825a06",
     "packages": [
-        {
-            "name": "bramus/ansi-php",
-            "version": "3.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bramus/ansi-php.git",
-                "reference": "fb0be33f36053af7454d462e3ddc0a2ac0b2f311"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bramus/ansi-php/zipball/fb0be33f36053af7454d462e3ddc0a2ac0b2f311",
-                "reference": "fb0be33f36053af7454d462e3ddc0a2ac0b2f311",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Bramus\\Ansi\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Bramus Van Damme",
-                    "email": "bramus@bram.us",
-                    "homepage": "https://www.bram.us/"
-                }
-            ],
-            "description": "ANSI Control Functions and ANSI Control Sequences (Colors, Erasing, etc.) for PHP CLI Apps",
-            "time": "2019-12-03T09:04:38+00:00"
-        },
-        {
-            "name": "bramus/monolog-colored-line-formatter",
-            "version": "2.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bramus/monolog-colored-line-formatter.git",
-                "reference": "6bff15eee00afe2690642535b0f1541f10852c2b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bramus/monolog-colored-line-formatter/zipball/6bff15eee00afe2690642535b0f1541f10852c2b",
-                "reference": "6bff15eee00afe2690642535b0f1541f10852c2b",
-                "shasum": ""
-            },
-            "require": {
-                "bramus/ansi-php": "~3.0",
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "monolog/monolog": "~1.0",
-                "phpunit/phpunit": "~4.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Bramus\\Monolog\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Bramus Van Damme",
-                    "email": "bramus@bram.us",
-                    "homepage": "https://www.bram.us/"
-                }
-            ],
-            "description": "Colored Line Formatter for Monolog",
-            "time": "2015-01-07T22:12:35+00:00"
-        },
         {
             "name": "doctrine/inflector",
             "version": "1.3.x-dev",
@@ -213,103 +131,6 @@
                 "views"
             ],
             "time": "2019-10-12T17:57:19+00:00"
-        },
-        {
-            "name": "gossi/docblock",
-            "version": "v1.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/gossi/docblock.git",
-                "reference": "d7e2f299279f5aebbfddeef1c119e26bef4bc7e9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/gossi/docblock/zipball/d7e2f299279f5aebbfddeef1c119e26bef4bc7e9",
-                "reference": "d7e2f299279f5aebbfddeef1c119e26bef4bc7e9",
-                "shasum": ""
-            },
-            "require": {
-                "phootwork/collection": "^1.5",
-                "php": ">=5.6"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^5.7",
-                "sami/sami": "^4|^3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "gossi\\docblock\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Thomas Gossmann",
-                    "homepage": "http://gos.si"
-                }
-            ],
-            "description": "PHP Docblock parser and generator. An API to read and write Docblocks.",
-            "keywords": [
-                "docblock",
-                "generator",
-                "parser"
-            ],
-            "time": "2017-07-01T18:10:54+00:00"
-        },
-        {
-            "name": "gossi/php-code-generator",
-            "version": "v0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/gossi/php-code-generator.git",
-                "reference": "92f243cdf3c7d3c8a56421817de0a9e3f23dea82"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/gossi/php-code-generator/zipball/92f243cdf3c7d3c8a56421817de0a9e3f23dea82",
-                "reference": "92f243cdf3c7d3c8a56421817de0a9e3f23dea82",
-                "shasum": ""
-            },
-            "require": {
-                "gossi/docblock": "~1",
-                "nikic/php-parser": "^3|^2|^1",
-                "phootwork/file": "~0",
-                "phootwork/tokenizer": "~0",
-                "php": ">=5.6",
-                "symfony/options-resolver": "^3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^5.7",
-                "sami/sami": "^4|^3"
-            },
-            "suggest": {
-                "gossi/php-code-formatter": "Formatting your generated code"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "gossi\\codegen\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache2"
-            ],
-            "authors": [
-                {
-                    "name": "Thomas Gossmann",
-                    "homepage": "http://gos.si"
-                }
-            ],
-            "description": "Toolset for generating PHP code",
-            "keywords": [
-                "code generation"
-            ],
-            "time": "2017-07-01T17:14:18+00:00"
         },
         {
             "name": "illuminate/container",
@@ -655,99 +476,6 @@
             "time": "2020-01-29T21:28:36+00:00"
         },
         {
-            "name": "marcj/topsort",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/marcj/topsort.php.git",
-                "reference": "387086c2db60ee0a27ac5df588c0f0b30c6bdc4b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/marcj/topsort.php/zipball/387086c2db60ee0a27ac5df588c0f0b30c6bdc4b",
-                "reference": "387086c2db60ee0a27ac5df588c0f0b30c6bdc4b",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4"
-            },
-            "require-dev": {
-                "codeclimate/php-test-reporter": "dev-master",
-                "phpunit/phpunit": "~4.0",
-                "symfony/console": "~2.5"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "MJS\\TopSort\\": "src/",
-                    "MJS\\TopSort\\Tests\\": "tests/Tests/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Marc J. Schmidt",
-                    "email": "marc@marcjschmidt.de"
-                }
-            ],
-            "description": "High-Performance TopSort/Dependency resolving algorithm",
-            "keywords": [
-                "dependency resolving",
-                "topological sort",
-                "topsort"
-            ],
-            "time": "2016-11-19T14:58:11+00:00"
-        },
-        {
-            "name": "mustache/mustache",
-            "version": "v2.13.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bobthecow/mustache.php.git",
-                "reference": "e95c5a008c23d3151d59ea72484d4f72049ab7f4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/e95c5a008c23d3151d59ea72484d4f72049ab7f4",
-                "reference": "e95c5a008c23d3151d59ea72484d4f72049ab7f4",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2.4"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "~1.11",
-                "phpunit/phpunit": "~3.7|~4.0|~5.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Mustache": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Justin Hileman",
-                    "email": "justin@justinhileman.info",
-                    "homepage": "http://justinhileman.com"
-                }
-            ],
-            "description": "A Mustache implementation in PHP.",
-            "homepage": "https://github.com/bobthecow/mustache.php",
-            "keywords": [
-                "mustache",
-                "templating"
-            ],
-            "time": "2019-11-23T21:40:31+00:00"
-        },
-        {
             "name": "nesbot/carbon",
             "version": "dev-master",
             "source": {
@@ -818,326 +546,32 @@
             "time": "2020-01-29T20:52:45+00:00"
         },
         {
-            "name": "nikic/php-parser",
-            "version": "3.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "bb87e28e7d7b8d9a7fda231d37457c9210faf6ce"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/bb87e28e7d7b8d9a7fda231d37457c9210faf6ce",
-                "reference": "bb87e28e7d7b8d9a7fda231d37457c9210faf6ce",
-                "shasum": ""
-            },
-            "require": {
-                "ext-tokenizer": "*",
-                "php": ">=5.5"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0|~5.0"
-            },
-            "bin": [
-                "bin/php-parse"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "PhpParser\\": "lib/PhpParser"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Nikita Popov"
-                }
-            ],
-            "description": "A PHP parser written in PHP",
-            "keywords": [
-                "parser",
-                "php"
-            ],
-            "time": "2018-02-28T20:30:58+00:00"
-        },
-        {
-            "name": "phootwork/collection",
-            "version": "v1.6.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phootwork/collection.git",
-                "reference": "87def4453e84b98ce516d647bf23e4c497d4b95c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phootwork/collection/zipball/87def4453e84b98ce516d647bf23e4c497d4b95c",
-                "reference": "87def4453e84b98ce516d647bf23e4c497d4b95c",
-                "shasum": ""
-            },
-            "require": {
-                "phootwork/lang": "~0",
-                "php": ">=5.6"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^5.7",
-                "sami/sami": "^4|^3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "phootwork\\collection\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Thomas Gossmann",
-                    "homepage": "http://gos.si"
-                }
-            ],
-            "description": "PHP Collections library (List, Set, Map, Queue & Stack)",
-            "keywords": [
-                "collection",
-                "collections",
-                "list",
-                "map",
-                "queue",
-                "set",
-                "stack"
-            ],
-            "time": "2018-09-15T11:41:17+00:00"
-        },
-        {
-            "name": "phootwork/file",
-            "version": "v0.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phootwork/file.git",
-                "reference": "adf6910515c107a5a650f49822129fe2ae6467dc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phootwork/file/zipball/adf6910515c107a5a650f49822129fe2ae6467dc",
-                "reference": "adf6910515c107a5a650f49822129fe2ae6467dc",
-                "shasum": ""
-            },
-            "require": {
-                "phootwork/lang": "~0",
-                "php": ">=5.6"
-            },
-            "require-dev": {
-                "mikey179/vfsstream": "^1",
-                "phpunit/phpunit": "^5.7",
-                "sami/sami": "^4|^3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "phootwork\\file\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Thomas Gossmann",
-                    "homepage": "http://gos.si"
-                }
-            ],
-            "description": "File Operations for the local Filesystem",
-            "keywords": [
-                "file",
-                "filesystem"
-            ],
-            "time": "2018-09-15T13:15:32+00:00"
-        },
-        {
-            "name": "phootwork/json",
-            "version": "v1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phootwork/json.git",
-                "reference": "45a4cfe802ed06d5ac383646c620c8ab8ab5761d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phootwork/json/zipball/45a4cfe802ed06d5ac383646c620c8ab8ab5761d",
-                "reference": "45a4cfe802ed06d5ac383646c620c8ab8ab5761d",
-                "shasum": ""
-            },
-            "require": {
-                "phootwork/collection": "^1.5",
-                "php": ">=5.6"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^5.7",
-                "sami/sami": "^4|^3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "phootwork\\json\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Thomas Gossmann",
-                    "homepage": "http://gos.si"
-                }
-            ],
-            "description": "PHP json wrapper library",
-            "keywords": [
-                "json"
-            ],
-            "time": "2017-07-01T12:45:29+00:00"
-        },
-        {
-            "name": "phootwork/lang",
-            "version": "v0.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phootwork/lang.git",
-                "reference": "752482b0c8f60d005414b0cb81646f72bf929724"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phootwork/lang/zipball/752482b0c8f60d005414b0cb81646f72bf929724",
-                "reference": "752482b0c8f60d005414b0cb81646f72bf929724",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6",
-                "symfony/polyfill-mbstring": "~1.8"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^5.7",
-                "sami/sami": "^4.1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "phootwork\\lang\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Thomas Gossmann",
-                    "homepage": "http://gos.si"
-                }
-            ],
-            "description": "Missing PHP language constructs",
-            "keywords": [
-                "array",
-                "comparator",
-                "comparison",
-                "string"
-            ],
-            "time": "2018-08-04T14:22:05+00:00"
-        },
-        {
-            "name": "phootwork/tokenizer",
-            "version": "v0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phootwork/tokenizer.git",
-                "reference": "826d8a365a82c6dd705d1e5267e7495e81589338"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phootwork/tokenizer/zipball/826d8a365a82c6dd705d1e5267e7495e81589338",
-                "reference": "826d8a365a82c6dd705d1e5267e7495e81589338",
-                "shasum": ""
-            },
-            "require": {
-                "phootwork/collection": "^1.5",
-                "php": ">=5.6"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^5.7",
-                "sami/sami": "^4|^3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "phootwork\\tokenizer\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Thomas Gossmann",
-                    "homepage": "http://gos.si"
-                }
-            ],
-            "description": "Tokenizer for PHP code",
-            "keywords": [
-                "tokenizer"
-            ],
-            "time": "2017-07-01T14:00:42+00:00"
-        },
-        {
             "name": "propel/propel",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/propelorm/Propel3.git",
-                "reference": "9c1a18421237ecdc3350eb151da75126ff7d436a"
+                "url": "https://github.com/propelorm/Propel2.git",
+                "reference": "297473a6ddf0dcbbd6f88cb852c2c549814f908e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/propelorm/Propel3/zipball/9c1a18421237ecdc3350eb151da75126ff7d436a",
-                "reference": "9c1a18421237ecdc3350eb151da75126ff7d436a",
+                "url": "https://api.github.com/repos/propelorm/Propel2/zipball/297473a6ddf0dcbbd6f88cb852c2c549814f908e",
+                "reference": "297473a6ddf0dcbbd6f88cb852c2c549814f908e",
                 "shasum": ""
             },
             "require": {
-                "bramus/monolog-colored-line-formatter": "^2.0",
-                "ext-pdo": "*",
-                "ext-sqlite3": "*",
-                "gossi/php-code-generator": "0.5",
-                "marcj/topsort": "1.1.0",
-                "mustache/mustache": "^2.6",
-                "phootwork/collection": "^1.6",
-                "phootwork/file": "^0.2.0",
-                "phootwork/json": "^1.2",
-                "phootwork/lang": "^0.9.0",
-                "php": ">=7.2",
-                "psr/log": "^1.0",
-                "symfony/config": "^3.0|^4.0",
-                "symfony/console": "^3.0|^4.0",
-                "symfony/event-dispatcher": "^3.0|^4.0",
-                "symfony/filesystem": "^3.0|^4.0",
-                "symfony/finder": "^3.0|^4.0",
-                "symfony/yaml": "^3.0|^4.0"
+                "php": ">=5.5",
+                "psr/log": "~1.0",
+                "symfony/config": "~2.3||~3.0||~4.0",
+                "symfony/console": "~2.3||~3.0||~4.0",
+                "symfony/filesystem": "~2.3||~3.0||~4.0",
+                "symfony/finder": "~2.3||~3.0||~4.0",
+                "symfony/validator": "~2.3||~3.0.0||~3.1.0||^3.2.4||~4.0",
+                "symfony/yaml": "~2.3||~3.0||~4.0"
             },
             "require-dev": {
-                "behat/behat": "^3.3",
-                "mikey179/vfsstream": "^1.6",
                 "monolog/monolog": "~1.3",
-                "phpunit/phpunit": "^6.0|^7.0"
+                "phpunit/phpunit": "~4.0||~5.0"
             },
             "suggest": {
                 "monolog/monolog": "The recommended logging library to use with Propel."
@@ -1148,49 +582,32 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "2.0-dev"
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Propel\\": "src/"
+                "psr-0": {
+                    "Propel": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Propel\\Tests\\": [
-                        "tests/",
-                        "tests/Fixtures/bookstore/build/classes/Propel/Tests/",
-                        "tests/Fixtures/schemas/build/classes/Propel/Tests/",
-                        "tests/Fixtures/quoting/build/classes/Propel/Tests/",
-                        "tests/Fixtures/bookstore-packaged/build/classes/Propel/Tests/"
-                    ],
-                    "Foo\\": "tests/Fixtures/namespaced/build/classes/Foo/",
-                    "Baz\\": "tests/Fixtures/namespaced/build/classes/Baz/"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "authors": [
                 {
-                    "name": "Marc J. Schmidt",
-                    "email": "marc@marcjschmidt.de"
+                    "name": "William Durand",
+                    "email": "william.durand1@gmail.com"
                 }
             ],
-            "description": "High performance data-mapper ORM with optional active-record traits for RAD and modern PHP 7.1+",
+            "description": "Propel2 is an open-source Object-Relational Mapping (ORM) for PHP 5.5 and up.",
             "homepage": "http://www.propelorm.org/",
             "keywords": [
                 "Active Record",
-                "ORM",
-                "data mapper",
+                "orm",
                 "persistence"
             ],
-            "support": {
-                "source": "https://github.com/propelorm/Propel3/tree/master",
-                "issues": "https://github.com/propelorm/Propel3/issues"
-            },
-            "time": "2019-07-22T06:15:41+00:00"
+            "time": "2019-11-08T13:12:55+00:00"
         },
         {
             "name": "psr/container",
@@ -1477,6 +894,77 @@
             "time": "2020-02-04T09:32:40+00:00"
         },
         {
+            "name": "symfony/contracts",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/contracts.git",
+                "reference": "d3636025e8253c6144358ec0a62773cae588395b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/contracts/zipball/d3636025e8253c6144358ec0a62773cae588395b",
+                "reference": "d3636025e8253c6144358ec0a62773cae588395b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "require-dev": {
+                "psr/cache": "^1.0",
+                "psr/container": "^1.0",
+                "symfony/polyfill-intl-idn": "^1.10"
+            },
+            "suggest": {
+                "psr/cache": "When using the Cache contracts",
+                "psr/container": "When using the Service contracts",
+                "symfony/cache-contracts-implementation": "",
+                "symfony/event-dispatcher-implementation": "",
+                "symfony/http-client-contracts-implementation": "",
+                "symfony/service-contracts-implementation": "",
+                "symfony/translation-contracts-implementation": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Contracts\\": ""
+                },
+                "exclude-from-classmap": [
+                    "**/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "A set of abstractions extracted out of the Symfony components",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "abstractions",
+                "contracts",
+                "decoupling",
+                "interfaces",
+                "interoperability",
+                "standards"
+            ],
+            "time": "2019-04-27T14:29:50+00:00"
+        },
+        {
             "name": "symfony/debug",
             "version": "4.4.x-dev",
             "source": {
@@ -1531,134 +1019,6 @@
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
             "time": "2020-02-04T07:40:16+00:00"
-        },
-        {
-            "name": "symfony/event-dispatcher",
-            "version": "4.4.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "4ad8e149799d3128621a3a1f70e92b9897a8930d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/4ad8e149799d3128621a3a1f70e92b9897a8930d",
-                "reference": "4ad8e149799d3128621a3a1f70e92b9897a8930d",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.1.3",
-                "symfony/event-dispatcher-contracts": "^1.1"
-            },
-            "conflict": {
-                "symfony/dependency-injection": "<3.4"
-            },
-            "provide": {
-                "psr/event-dispatcher-implementation": "1.0",
-                "symfony/event-dispatcher-implementation": "1.1"
-            },
-            "require-dev": {
-                "psr/log": "~1.0",
-                "symfony/config": "^3.4|^4.0|^5.0",
-                "symfony/dependency-injection": "^3.4|^4.0|^5.0",
-                "symfony/expression-language": "^3.4|^4.0|^5.0",
-                "symfony/http-foundation": "^3.4|^4.0|^5.0",
-                "symfony/service-contracts": "^1.1|^2",
-                "symfony/stopwatch": "^3.4|^4.0|^5.0"
-            },
-            "suggest": {
-                "symfony/dependency-injection": "",
-                "symfony/http-kernel": ""
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.4-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\EventDispatcher\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony EventDispatcher Component",
-            "homepage": "https://symfony.com",
-            "time": "2020-02-04T09:32:40+00:00"
-        },
-        {
-            "name": "symfony/event-dispatcher-contracts",
-            "version": "v1.1.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/event-dispatcher-contracts.git",
-                "reference": "c43ab685673fb6c8d84220c77897b1d6cdbe1d18"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher-contracts/zipball/c43ab685673fb6c8d84220c77897b1d6cdbe1d18",
-                "reference": "c43ab685673fb6c8d84220c77897b1d6cdbe1d18",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.1.3"
-            },
-            "suggest": {
-                "psr/event-dispatcher": "",
-                "symfony/event-dispatcher-implementation": ""
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Contracts\\EventDispatcher\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Generic abstractions related to dispatching event",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "abstractions",
-                "contracts",
-                "decoupling",
-                "interfaces",
-                "interoperability",
-                "standards"
-            ],
-            "time": "2019-09-17T09:54:03+00:00"
         },
         {
             "name": "symfony/filesystem",
@@ -1758,60 +1118,6 @@
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
             "time": "2020-02-04T09:32:40+00:00"
-        },
-        {
-            "name": "symfony/options-resolver",
-            "version": "3.4.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/options-resolver.git",
-                "reference": "730ef56164ed6c9356c159e9f5ff2b84d753b9ed"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/730ef56164ed6c9356c159e9f5ff2b84d753b9ed",
-                "reference": "730ef56164ed6c9356c159e9f5ff2b84d753b9ed",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.5.9|>=7.0.8"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.4-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\OptionsResolver\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony OptionsResolver Component",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "config",
-                "configuration",
-                "options"
-            ],
-            "time": "2020-01-01T11:03:25+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -2179,6 +1485,98 @@
                 "standards"
             ],
             "time": "2020-01-04T14:08:26+00:00"
+        },
+        {
+            "name": "symfony/validator",
+            "version": "v4.3.0-BETA2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/validator.git",
+                "reference": "1511d0f5958695d5e668f0c3bccfb5bae80f4eb4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/validator/zipball/1511d0f5958695d5e668f0c3bccfb5bae80f4eb4",
+                "reference": "1511d0f5958695d5e668f0c3bccfb5bae80f4eb4",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3",
+                "symfony/contracts": "^1.0.2",
+                "symfony/polyfill-ctype": "~1.8",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "conflict": {
+                "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0",
+                "symfony/dependency-injection": "<3.4",
+                "symfony/http-kernel": "<3.4",
+                "symfony/intl": "<4.3",
+                "symfony/translation": "<4.2",
+                "symfony/yaml": "<3.4"
+            },
+            "require-dev": {
+                "doctrine/annotations": "~1.0",
+                "doctrine/cache": "~1.0",
+                "egulias/email-validator": "^1.2.8|~2.0",
+                "symfony/cache": "~3.4|~4.0",
+                "symfony/config": "~3.4|~4.0",
+                "symfony/dependency-injection": "~3.4|~4.0",
+                "symfony/expression-language": "~3.4|~4.0",
+                "symfony/http-client": "^4.3",
+                "symfony/http-foundation": "~4.1",
+                "symfony/http-kernel": "~3.4|~4.0",
+                "symfony/intl": "^4.3",
+                "symfony/property-access": "~3.4|~4.0",
+                "symfony/property-info": "~3.4|~4.0",
+                "symfony/translation": "~4.2",
+                "symfony/var-dumper": "~3.4|~4.0",
+                "symfony/yaml": "~3.4|~4.0"
+            },
+            "suggest": {
+                "doctrine/annotations": "For using the annotation mapping. You will also need doctrine/cache.",
+                "doctrine/cache": "For using the default cached annotation reader and metadata cache.",
+                "egulias/email-validator": "Strict (RFC compliant) email validation",
+                "psr/cache-implementation": "For using the metadata cache.",
+                "symfony/config": "",
+                "symfony/expression-language": "For using the Expression validator",
+                "symfony/http-foundation": "",
+                "symfony/intl": "",
+                "symfony/property-access": "For accessing properties within comparison constraints",
+                "symfony/property-info": "To automatically add NotNull and Type constraints",
+                "symfony/translation": "For translating validation errors.",
+                "symfony/yaml": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Validator\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Validator Component",
+            "homepage": "https://symfony.com",
+            "time": "2019-05-20T16:16:12+00:00"
         },
         {
             "name": "symfony/yaml",
