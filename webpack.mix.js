@@ -1,5 +1,7 @@
 let mix = require('laravel-mix');
 
+require('laravel-mix-copy-watched');
+
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -11,7 +13,10 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('assets/scripts/main.js', 'dist/').sass('assets/styles/main.scss', 'dist/');
+mix
+  .js('assets/scripts/main.js', 'dist/js')
+  .sass('assets/styles/main.scss', 'dist/css')
+  .copyWatched('assets/images/**/*', 'dist/images');
 
 // Full API
 // mix.js(src, output);
