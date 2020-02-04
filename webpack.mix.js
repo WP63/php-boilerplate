@@ -12,12 +12,18 @@ require('laravel-mix-copy-watched');
  | file for your application, as well as bundling up your JS files.
  |
  */
+mix.webpackConfig({
+  resolve: {
+    alias: {
+      'jquery': path.join(__dirname, 'node_modules/jquery/src/jquery')
+    }
+  }
+});
 
 mix
-  .js('assets/scripts/main.js', 'dist/js')
-  .sass('assets/styles/main.scss', 'dist/css')
+  .js('assets/scripts/main.js', 'dist/scripts')
+  .sass('assets/styles/main.scss', 'dist/styles')
   .copyWatched('assets/images/**/*', 'dist/images');
-
 // Full API
 // mix.js(src, output);
 // mix.react(src, output); <-- Identical to mix.js(), but registers React Babel compilation.
