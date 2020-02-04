@@ -1,10 +1,12 @@
 <?php
+namespace App;
+
 require __DIR__ . '/vendor/autoload.php';
 
 use Buki\Router;
 
 if ( ! defined( 'ABSPATH' ) ) {
-  define( 'ABSPATH', dirname( __FILE__ ) . '/' );
+  define( 'ABSPATH', __DIR__ . '/' );
 }
 
 $router = new Router([
@@ -16,6 +18,6 @@ $router = new Router([
   ],
 ]);
 
-$router->get( '/', 'Home@main');
+$router->get( '/', 'Home@main' );
 
 $router->run();
