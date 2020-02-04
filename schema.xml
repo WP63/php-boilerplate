@@ -86,7 +86,6 @@
 
     <!--
         When you're done with editing, open a terminal and run
-            `$ cd /Users/Jirayu/Projects/php-boilerplate`
             `$ vendor/bin/propel build`
         to generate the model classes.
 
