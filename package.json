@@ -1,0 +1,19 @@
+{
+  "name": "php-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple boilerplate for PHP Application",
+  "author": "WP63 <me@jirayu.in.th>",
+  "homepage": "https://wp63.co",
+  "private": true,
+  "license": "GPLv3 or later",
+  "devDependencies": {
+    "laravel-mix": "^5.0.1",
+    "node-sass": "^4.13.1",
+    "resolve-url-loader": "^3.1.0",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "scripts": {
+    "build": "node_modules/.bin/webpack --config=node_modules/laravel-mix/setup/webpack.config.js"
+  }
+}
