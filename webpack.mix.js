@@ -24,6 +24,7 @@ mix
   .js('assets/scripts/main.js', 'dist/scripts')
   .sass('assets/styles/main.scss', 'dist/styles')
   .copyWatched('assets/images/**/*', 'dist/images');
+
 // Full API
 // mix.js(src, output);
 // mix.react(src, output); <-- Identical to mix.js(), but registers React Babel compilation.
