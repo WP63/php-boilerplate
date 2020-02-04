@@ -7,7 +7,7 @@ class Home extends Controller {
   public function main() {
     $text = "Hello World";
 
-    $this->render('home', [
+    return $this->render('home', [
       'text' => $text,
     ]);
   }

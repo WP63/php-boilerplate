@@ -11,6 +11,6 @@ abstract class Controller {
   }
 
   protected function render( string $template, array $params ) {
-    echo $this->blade->render( $template, $params );
+    return $this->blade->render( $template, $params );
   }
 }
