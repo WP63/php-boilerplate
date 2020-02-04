@@ -4,7 +4,7 @@ require __DIR__ . '/vendor/autoload.php';
 use Buki\Router;
 
 if ( ! defined( 'ABSPATH' ) ) {
-	define( 'ABSPATH', dirname( __FILE__ ) . '/' );
+  define( 'ABSPATH', dirname( __FILE__ ) . '/' );
 }
 
 $router = new Router([
