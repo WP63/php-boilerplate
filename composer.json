@@ -14,7 +14,7 @@
         "duncan3dc/blade": "^4.8",
         "propel/propel": "~2.0@dev"
     },
-    "license": "GPLv3 or later",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "WP63",
