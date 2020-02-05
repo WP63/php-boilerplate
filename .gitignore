@@ -8,3 +8,4 @@ src/Models
 dist
 
 propel.yml.dist
+mix-manifest.json
