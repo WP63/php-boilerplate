@@ -3,7 +3,7 @@ propel:
     connections:
       default:
         adapter: sqlite
-        dsn: sqlite:./database.sq3
+        dsn: sqlite:./database/default.sq3
         user: root
         password: password
         settings:
@@ -11,6 +11,7 @@ propel:
   paths:
     phpDir: ./src/Models
     phpConfDir: ./database
+    schemaDir: ./database
     sqlDir: ./database
     migrationDir: ./database/migrations
   generator:

@@ -3,8 +3,8 @@ node_nodules
 
 caches
 database
+!database/schema.xml
 src/Models
 dist
 
 propel.yml.dist
-database.sq3
