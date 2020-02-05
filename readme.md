@@ -3,7 +3,7 @@ A simple boilerplate for PHP Application
 
 ## Features
 * Router: [PHP-Router](https://github.com/izniburak/php-router)
-* Database ORM: [Propel3](https://github.com/propelorm/Propel3)
+* Database ORM: [Propel2](https://github.com/propelorm/Propel2)
 * Template engine: [Blade Template Engine](https://github.com/duncan3dc/blade)
 * Laravel Mix for ESNext and SCSS
 
