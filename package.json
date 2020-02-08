@@ -7,6 +7,7 @@
   "private": true,
   "license": "GPLv3 or later",
   "devDependencies": {
+    "cross-env": "6",
     "laravel-mix": "^5.0.1",
     "laravel-mix-copy-watched": "^2.2.2",
     "node-sass": "^4.13.1",
@@ -15,7 +16,8 @@
     "vue-template-compiler": "^2.6.11"
   },
   "scripts": {
-    "build": "node_modules/.bin/webpack --config=node_modules/laravel-mix/setup/webpack.config.js"
+    "build": "node_modules/.bin/webpack --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "build:production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
