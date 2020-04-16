@@ -12,13 +12,16 @@ require('laravel-mix-copy-watched');
  | file for your application, as well as bundling up your JS files.
  |
  */
-mix.webpackConfig({
-  resolve: {
-    alias: {
-      'jquery': path.join(__dirname, 'node_modules/jquery/src/jquery')
+mix
+  .webpackConfig({
+    devtool: 'inline-source-map',
+    resolve: {
+      alias: {
+        'jquery': path.join(__dirname, 'node_modules/jquery/src/jquery')
+      }
     }
-  }
-});
+  })
+  .sourceMaps();
 
 mix
   .js('assets/scripts/main.js', 'dist/scripts')
