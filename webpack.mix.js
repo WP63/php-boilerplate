@@ -24,9 +24,9 @@ mix
   .sourceMaps();
 
 mix
-  .js('assets/scripts/main.js', 'dist/scripts')
-  .sass('assets/styles/main.scss', 'dist/styles')
-  .copyWatched('assets/images/**/*', 'dist/images');
+  .js('resources/scripts/main.js', 'public/dist/scripts')
+  .sass('resources/styles/main.scss', 'public/dist/styles')
+  .copyWatched('resources/images/**/*', 'public/dist/images');
 
 // Full API
 // mix.js(src, output);
